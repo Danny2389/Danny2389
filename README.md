@@ -38,8 +38,6 @@
 
 ## 📌 Featured Projects
 
-## 📌 Featured Projects
-
 ### 🏥 [Healthcare Chatbot – React + ML](https://github.com/danny2389/Health_Care_App)
 - Built a **React frontend** integrated with an **ML-powered Flask API** to predict diseases based on user-selected symptoms  
 - Provided dynamic suggestions, user-friendly UI, and responsive chatbot interaction
