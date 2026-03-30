@@ -58,9 +58,6 @@
 - Analyzed bike rental usage patterns and built a **regression model** to predict demand  
 - Used **feature engineering** and time-based variables to boost model accuracy
 
-### 🎓 [Certificate Generator (React.js)](https://github.com/Danny2389/Certificate_Generator.git)
-- Developed a dynamic **React-based certificate generator** for events and workshops  
-- Supports real-time preview, user inputs, and customizable templates with PDF download functionality
 
 ---
 
