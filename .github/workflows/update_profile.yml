@@ -3,15 +3,19 @@ name: Update Profile SVGs
 on:
   schedule:
     - cron: "*/5 * * * *"
-
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-svg-update
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - uses: actions/checkout@v4
