@@ -17,13 +17,19 @@
 
 <br>
 
-<div align="center">
+<!-- <div align="center"> -->
+  <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-views-dark.svg?v=19">
-    <img alt="Profile Views Counter" src="./assets/profile-views-light.svg?v=19" height="58">
+    <source media="(prefers-color-scheme: dark)"
+            srcset="./assets/profile-views-dark.svg?v=19">
+    <img src="./assets/profile-views-light.svg?v=19"
+         height="58"
+         alt="">
   </picture>
-  <img style="border-radius:12px" src="https://api.visitorbadge.io/api/visitors?path=Danny2389&amp;label=&amp;countColor=%230d0507d0&amp;style=for-the-badge" height="57" alt="">
-</div>
+  <img src="https://api.visitorbadge.io/api/visitors?path=Danny2389&label=&countColor=%230d0507d0&style=for-the-badge"
+       height="57"
+       alt="">
+</p>
 
 
 <h2 align="center"><font color="#ff003c">🛡️ Core Security Toolkit & Skills</font></h2>
