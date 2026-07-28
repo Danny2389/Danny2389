@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,17 +31,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install Pillow requests
 
-      - name: Generate SVGs
-        working-directory: svgs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python build_all_svgs.py
-
-      - name: Commit Changes
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Sync Latest Main
+        run: |
+          git fetch origin
+          git checkout main
+          git reset --hard origin/main
+
+      - name: Generate SVGs
+        working-directory: svgs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python build_all_svgs.py
+
+      - name: Commit Changes
+        run: |
           git add svgs README.md
 
           if git diff --cached --quiet; then
@@ -49,12 +58,31 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto update profile SVGs"
-
-      - name: Sync With Remote
-        run: |
-          git pull --rebase origin main
+          git commit -m "auto: update profile analytics & SVGs [skip ci]"
 
       - name: Push Changes
         run: |
-          git push origin main
+          git fetch origin
+
+          if ! git rebase origin/main; then
+            echo "Rebase conflict. Rebuilding from latest main..."
+
+            git rebase --abort
+
+            git reset --hard origin/main
+
+            cd svgs
+            python build_all_svgs.py
+            cd ..
+
+            git add svgs README.md
+
+            if git diff --cached --quiet; then
+              echo "No changes after rebuild."
+              exit 0
+            fi
+
+            git commit -m "auto: update profile analytics & SVGs [skip ci]"
+          fi
+
+          git push origin HEAD:main
