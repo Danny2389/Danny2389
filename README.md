@@ -1,75 +1,122 @@
-# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px"> Hello! I'm Dinesh
-🚀 **Data Scientist | Machine Learning Engineer | NLP | AI Enthusiast**
+<div align="center">
 
-## 🎨 About Me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=14">
+  <img alt="Siramasetty Vijaya Sai Dinesh - Cyber Security Analyst Profile Banner" src="./assets/banner-light.svg?v=14" width="100%">
+</picture>
 
-> *"Turning data into stories, AI into solutions, and ideas into reality."*
+<br><br>
 
-- 🎭 **Data Artist:** Crafting AI-driven solutions that transform raw data into meaningful insights  
-- 💡 **Innovator:** Passionate about solving real-world challenges with **Machine Learning, AI, NLP & Deep Learning**  
-- 🌍 **Explorer:** Continuously learning and experimenting with **Big Data & Advanced AI Technologies**  
-- 🤝 **Collaborator:** Excited to work on impactful projects and build the future of AI together  
+### <font color="#ff003c">Cyber Security Analyst</font> &nbsp;•&nbsp; <font color="#ff5b7d">VAPT Specialist</font> &nbsp;•&nbsp; <font color="#ff003c">Python Automation Developer</font>
 
----
+<p align="center">
+  <em><font color="#9f9f9f" size="4">Passionate about discovering vulnerabilities, securing digital infrastructure, and engineering automated Python security tools.<br>Experienced in web application penetration testing, network security hardening and REST API auditing.</font></em>
+  <br><br>
+  <strong><font color="#ff003c">ALWAYS LEARNING</font> &nbsp;•&nbsp; <font color="#ff5b7d">ALWAYS SECURING</font> &nbsp;•&nbsp; <font color="#ff003c">ALWAYS BUILDING</font></strong>
+</p>
 
-## 🛠️ Tech Stack
+<br>
 
-| **Category**          | **Technologies**                                                                                                                                              |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Languages**          | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white) |
-| **Machine Learning & AI** | ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) |
-| **Data Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=plotly&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-009688?style=flat) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) |
-| **Databases**          | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) |
-| **Big Data & Cloud**   | ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white) |
-| **Development & Tools**| ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) ![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-views-dark.svg?v=14">
+    <img alt="Profile Views Counter" src="./assets/profile-views-light.svg?v=14" height="48">
+  </picture>
+</div>
 
----
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danny2389&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=danny2389&layout=compact&theme=radical)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=danny2389&theme=radical)
-
----
+</div>
 
 
-## 📌 Featured Projects
+<h2 align="center"><font color="#ff003c">🛡️ Core Security Toolkit & Skills</font></h2>
 
-### 🏥 [Healthcare Chatbot – React + ML](https://github.com/danny2389/Health_Care_App)
-- Built a **React frontend** integrated with an **ML-powered Flask API** to predict diseases based on user-selected symptoms  
-- Provided dynamic suggestions, user-friendly UI, and responsive chatbot interaction
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg?v=14">
+    <img alt="Cyber Security Skills and Toolkit" src="./assets/skills-light.svg?v=14" width="100%">
+  </picture>
+</div>
 
-### ✈️ [Flight Price Prediction](https://github.com/Danny2389/Flight_Fare_Prediction.git)
-- Built a **Flask-based web app** to estimate flight ticket prices  
-- Used **regression models**, feature engineering, and data preprocessing for optimal accuracy
+<br>
 
-### 🏥 [Healthcare Chatbot](https://github.com/Danny2389/Heart_Prediction.git)
-- Developed a **chatbot using Google Gemini API** for disease prediction based on symptoms  
-- Integrated **Flask backend** with ML models for seamless user interaction
+<h2 align="center"><font color="#ff003c">🚀 Public Repositories & Open Source Projects</font></h2>
 
-### 💰 [Insurance Cost Prediction](https://github.com/Danny2389/Insurance_Cost_Prediction.git) <!-- replace with actual repo link if different -->
-- Created an ML model to predict **insurance premium costs** based on demographic and lifestyle data  
-- Built an interactive **Flask + React app** with visualization and real-time cost forecasting
+<div align="center">
 
-### 🚲 [Bike Rental Demand Forecasting](https://github.com/Danny2389/BikeRentalPrediction.git) <!-- replace with actual repo link if different -->
-- Analyzed bike rental usage patterns and built a **regression model** to predict demand  
-- Used **feature engineering** and time-based variables to boost model accuracy
+| <font color="#ff003c">Repository</font> | <font color="#ff5b7d">Language / Stack</font> | <font color="#ff003c">Domain & Focus</font> | <font color="#ff5b7d">Description</font> |
+| :---: | :---: | :---: | :---: |
+| [**<font color="#ff5b7d">APEX_AI</font>**](https://github.com/Danny2389/APEX_AI) | `Python` `AI` | <font color="#ff003c"><strong>Cyber Security</strong></font> | Apex AI Cyber Security & Live Metric Pipeline & Report Generation Engine. |
+| [**<font color="#ff5b7d">Sales-Effectiveness</font>**](https://github.com/Danny2389/Sales-Effectiveness) | `Jupyter` `Python` | <font color="#ff5b7d"><strong>Data Science</strong></font> | Sales Performance Analytics & Predictive Modeling Suite. |
+| [**<font color="#ff5b7d">Employee_Performance_Analysis</font>**](https://github.com/Danny2389/Employee_Performance_Analysis__INX_Future_Inc) | `Jupyter` `Python` | <font color="#ff003c"><strong>ML Engine</strong></font> | INX Future Inc Enterprise Employee Performance Analytics. |
+| [**<font color="#ff5b7d">Health_Care_App</font>**](https://github.com/Danny2389/Health_Care_App) | `JavaScript` `Web` | <font color="#ff5b7d"><strong>App Security</strong></font> | Secure Web Healthcare & Patient Management Application. |
+| [**<font color="#ff5b7d">Insurance_Cost_Prediction</font>**](https://github.com/Danny2389/Insurance_Cost_Prediction) | `Jupyter` `Python` | <font color="#ff003c"><strong>Risk Analytics</strong></font> | Predictive Machine Learning Engine for Insurance Costing. |
+| [**<font color="#ff5b7d">Flight_Fare_Prediction</font>**](https://github.com/Danny2389/Flight_Fare_Prediction) | `Jupyter` `Python` | <font color="#ff5b7d"><strong>Data Pipeline</strong></font> | Airfare Price Trend Forecasting & Machine Learning Model. |
+| [**<font color="#ff5b7d">BikeRentalPrediction</font>**](https://github.com/Danny2389/BikeRentalPrediction) | `Jupyter` `Python` | <font color="#ff003c"><strong>Demand Forecasting</strong></font> | Machine Learning Model for Bike Rental Urban Demand. |
+| [**<font color="#ff5b7d">Heart_Prediction</font>**](https://github.com/Danny2389/Heart_Prediction) | `Jupyter` `Python` | <font color="#ff5b7d"><strong>Healthcare ML</strong></font> | Cardiovascular Disease Risk Assessment Analytics. |
 
+</div>
 
----
+<br>
 
-## 📬 Connect with Me
+<h2 align="center"><font color="#ff003c">📊 Security Profile & GitHub Analytics</font></h2>
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siramasettydinesh@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dinesh-siramasetty-0a3829302)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danny2389)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=14">
+    <img alt="Security Profile Statistics" src="./assets/stats-light.svg?v=14" width="100%">
+  </picture>
+  <br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/langs-dark.svg?v=14">
+    <img alt="GitHub Language & Analytics Breakdown" src="./assets/langs-light.svg?v=14" width="100%">
+  </picture>
+</div>
 
----
+<br>
 
-## 🚀 Let's Collaborate!
+<h2 align="center"><font color="#ff003c">🏆 Trophy Room & Achievements</font></h2>
 
-I'm always open to exciting **Data Science** and **Machine Learning** projects.  
-Feel free to reach out if you'd like to **collaborate or connect**! 😊
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/trophies-dark.svg?v=14">
+    <img alt="Achievement Trophies" src="./assets/trophies-light.svg?v=14" width="100%">
+  </picture>
+</div>
+
+<br>
+
+<h2 align="center"><font color="#ff003c">📈 Contribution Rhythm</font></h2>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg?v=14">
+    <img alt="Contribution Graph" src="./assets/snake-light.svg?v=14" width="100%">
+  </picture>
+</div>
+
+<br>
+
+<h2 align="center"><font color="#ff003c">🤝 Let's Connect</font></h2>
+
+<div align="center">
+
+<a href="https://svsdineshportfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-Live_Site-ff003c?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
+</a>
+<a href="https://github.com/Danny2389">
+  <img src="https://img.shields.io/badge/GitHub-Danny2389-ff1e4d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/dineshsiramasetty-0a3829302/">
+  <img src="https://img.shields.io/badge/LinkedIn-Siramasetty_Dinesh-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://tryhackme.com/p/siramasettydinesh">
+  <img src="https://img.shields.io/badge/TryHackMe-siramasettydinesh-212c42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe">
+</a>
+<a href="mailto:siramasettydinesh@gmail.com">
+  <img src="https://img.shields.io/badge/Email-siramasettydinesh@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+<br><br>
+
+<sub><font color="#9f9f9f">Made with a security-first mindset • </font><strong style="color:#ff003c">ALWAYS LEARNING • ALWAYS SECURING • ALWAYS BUILDING</strong></sub>
+
+</div>

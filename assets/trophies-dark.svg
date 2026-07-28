@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="180" viewBox="0 0 850 180" fill="none">
+  <defs>
+    <linearGradient id="trophy-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#140609"/>
+    </linearGradient>
+
+    <linearGradient id="card-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff003c"/>
+      <stop offset="100%" stop-color="#ff5b7d"/>
+    </linearGradient>
+
+    <filter id="trophy-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&amp;family=Inter:wght@700;800&amp;display=swap');
+
+    .card-box {
+      transition: all 0.3s ease;
+    }
+
+    .rank-badge { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 900; fill: #ff5b7d; }
+    .card-title { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 800; fill: #F7F7F7; }
+    .card-sub { font-family: 'Fira Code', monospace; font-size: 9px; fill: #9f9f9f; }
+  </style>
+
+  <rect width="850" height="180" rx="16" fill="url(#trophy-bg)" stroke="#262626" stroke-width="1.5"/>
+
+  <g transform="translate(25, 25)">
+    <g class="card-box" transform="translate(0, 0)">
+      <rect class="box-bg" width="124" height="130" rx="14" fill="#111111" stroke="#262626" stroke-width="1.2"/>
+      
+      <text x="18" y="32" font-size="20">🛡️</text>
+      <text x="106" y="30" text-anchor="end" class="rank-badge">SSS</text>
+
+      <text x="14" y="70" class="card-title">Apex Security</text>
+      <text x="14" y="86" class="card-sub">VAPT &amp; Automation</text>
+
+      <rect x="14" y="106" width="96" height="4" rx="2" fill="url(#card-accent)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g class="card-box" transform="translate(133, 0)">
+      <rect class="box-bg" width="124" height="130" rx="14" fill="#111111" stroke="#262626" stroke-width="1.2"/>
+      
+      <text x="18" y="32" font-size="20">⚡</text>
+      <text x="106" y="30" text-anchor="end" class="rank-badge">SS</text>
+
+      <text x="14" y="70" class="card-title">Fast Analytics</text>
+      <text x="14" y="86" class="card-sub">Data &amp; ML Pipelines</text>
+
+      <rect x="14" y="106" width="96" height="4" rx="2" fill="url(#card-accent)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g class="card-box" transform="translate(266, 0)">
+      <rect class="box-bg" width="124" height="130" rx="14" fill="#111111" stroke="#262626" stroke-width="1.2"/>
+      
+      <text x="18" y="32" font-size="20">🚀</text>
+      <text x="106" y="30" text-anchor="end" class="rank-badge">S+</text>
+
+      <text x="14" y="70" class="card-title">Full Stack Dev</text>
+      <text x="14" y="86" class="card-sub">Python &amp; Apps</text>
+
+      <rect x="14" y="106" width="96" height="4" rx="2" fill="url(#card-accent)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g class="card-box" transform="translate(399, 0)">
+      <rect class="box-bg" width="124" height="130" rx="14" fill="#111111" stroke="#262626" stroke-width="1.2"/>
+      
+      <text x="18" y="32" font-size="20">🔥</text>
+      <text x="106" y="30" text-anchor="end" class="rank-badge">SSS</text>
+
+      <text x="14" y="70" class="card-title">Git Committer</text>
+      <text x="14" y="86" class="card-sub">Active Open Source</text>
+
+      <rect x="14" y="106" width="96" height="4" rx="2" fill="url(#card-accent)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g class="card-box" transform="translate(532, 0)">
+      <rect class="box-bg" width="124" height="130" rx="14" fill="#111111" stroke="#262626" stroke-width="1.2"/>
+      
+      <text x="18" y="32" font-size="20">🏆</text>
+      <text x="106" y="30" text-anchor="end" class="rank-badge">A+</text>
+
+      <text x="14" y="70" class="card-title">Code Auditor</text>
+      <text x="14" y="86" class="card-sub">Security Research</text>
+
+      <rect x="14" y="106" width="96" height="4" rx="2" fill="url(#card-accent)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g class="card-box" transform="translate(665, 0)">
+      <rect class="box-bg" width="124" height="130" rx="14" fill="#111111" stroke="#262626" stroke-width="1.2"/>
+      
+      <text x="18" y="32" font-size="20">🎯</text>
+      <text x="106" y="30" text-anchor="end" class="rank-badge">S</text>
+
+      <text x="14" y="70" class="card-title">Zero Vulnerability</text>
+      <text x="14" y="86" class="card-sub">Hardened Builds</text>
+
+      <rect x="14" y="106" width="96" height="4" rx="2" fill="url(#card-accent)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

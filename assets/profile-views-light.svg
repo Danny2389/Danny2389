@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="58" viewBox="0 0 310 58" fill="none" role="img" aria-label="GitHub profile views">
+  <defs>
+    <linearGradient id="pv-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcfcfd" />
+      <stop offset="50%" stop-color="#f3f4f6" />
+      <stop offset="100%" stop-color="#e5e7eb" />
+    </linearGradient>
+
+    <linearGradient id="pv-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d90429" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#d1d5db" />
+      <stop offset="100%" stop-color="#ff003c" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="pv-eye-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d90429"/>
+      <stop offset="50%" stop-color="#ef233c"/>
+      <stop offset="100%" stop-color="#ff003c"/>
+    </linearGradient>
+
+    <filter id="pv-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="pv-gloss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;family=Inter:wght@700;800&amp;display=swap');
+
+    .pv-label {
+      font-family: 'Fira Code', monospace;
+      font-size: 10px;
+      font-weight: 700;
+      fill: #ff003c;
+      letter-spacing: 1.5px;
+    }
+
+    .pv-val {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      fill: #111827;
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect width="310" height="58" rx="14" fill="url(#pv-bg)" stroke="url(#pv-border-grad)" stroke-width="1.5"/>
+  <rect width="310" height="58" rx="14" fill="url(#pv-gloss)" pointer-events="none"/>
+
+  <!-- Cyber Eye Icon -->
+  <g transform="translate(16, 15)">
+    <path d="M 4 14 Q 18 2 32 14 Q 18 26 4 14 Z" fill="none" stroke="url(#pv-eye-grad)" stroke-width="2" filter="url(#pv-glow)"/>
+    <circle cx="18" cy="14" r="5" fill="none" stroke="#ff003c" stroke-width="1.5"/>
+    <circle cx="18" cy="14" r="2.5" fill="#d90429" filter="url(#pv-glow)">
+      <animate attributeName="r" values="2;3.2;2" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </circle>
+  </g>
+
+  <!-- Text Info -->
+  <text x="64" y="24" class="pv-label">PROFILE VIEWS</text>
+  <text x="64" y="41" class="pv-val">Visitors welcome</text>
+
+  <!-- Status Pulse Dot -->
+  <g transform="translate(276, 29)">
+    <circle cx="0" cy="0" r="4" fill="#d90429" filter="url(#pv-glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#ff003c" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="4;10;4" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
