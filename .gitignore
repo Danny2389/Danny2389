@@ -28,5 +28,5 @@ ehthumbs.db
 .env
 .env.local
 
-# EXPLICITLY INCLUDE & TRACK BUILD SCRIPT
-!build_all_svgs.py
+# Build scripts / Local scripts
+build_all_svgs.py
