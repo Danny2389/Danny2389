@@ -24,7 +24,6 @@
   </picture>
   <img style="border-radius:12px" src="https://api.visitorbadge.io/api/visitors?path=Danny2389&amp;label=&amp;countColor=%230d0507d0&amp;style=for-the-badge" height="57" alt="">
 </div>
-</div>
 
 
 <h2 align="center"><font color="#ff003c">🛡️ Core Security Toolkit & Skills</font></h2>
