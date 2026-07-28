@@ -72,7 +72,7 @@
 
   <g transform="translate(625, 90)">
     <text class="stat-label">FOLLOWERS</text>
-    <text y="30" class="stat-val">00</text>
+    <text y="30" class="stat-val">01</text>
     <text y="48" class="stat-sub">community connections</text>
   </g>
   <g transform="translate(625, 175)">
