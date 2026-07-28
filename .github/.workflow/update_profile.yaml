@@ -32,6 +32,7 @@ jobs:
           pip install Pillow
 
       - name: Generate updated SVGs
+        working-directory: svgs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -41,4 +42,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update profile analytics & SVGs [skip ci]"
-          file_pattern: "assets/* README.md"
+          file_pattern: "."
