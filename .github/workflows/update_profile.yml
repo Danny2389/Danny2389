@@ -51,7 +51,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add svgs README.md
+          git add .
 
           if git diff --cached --quiet; then
             echo "Nothing to commit."
