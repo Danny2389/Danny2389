@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=14">
-  <img alt="Siramasetty Vijaya Sai Dinesh - Cyber Security Analyst Profile Banner" src="./assets/banner-light.svg?v=14" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=15">
+  <img alt="Siramasetty Vijaya Sai Dinesh - Cyber Security Analyst Profile Banner" src="./assets/banner-light.svg?v=15" width="100%">
 </picture>
 
 <br><br>
@@ -19,8 +19,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-views-dark.svg?v=14">
-    <img alt="Profile Views Counter" src="./assets/profile-views-light.svg?v=14" height="48">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-views-dark.svg?v=16">
+    <img alt="Profile Views Counter" src="./assets/profile-views-light.svg?v=16" height="52">
   </picture>
 </div>
 
@@ -31,8 +31,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg?v=14">
-    <img alt="Cyber Security Skills and Toolkit" src="./assets/skills-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg?v=16">
+    <img alt="Cyber Security Skills and Toolkit" src="./assets/skills-light.svg?v=16" width="100%">
   </picture>
 </div>
 
@@ -61,13 +61,13 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=14">
-    <img alt="Security Profile Statistics" src="./assets/stats-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=16">
+    <img alt="Security Profile Statistics" src="./assets/stats-light.svg?v=16" width="100%">
   </picture>
   <br><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/langs-dark.svg?v=14">
-    <img alt="GitHub Language & Analytics Breakdown" src="./assets/langs-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/langs-dark.svg?v=16">
+    <img alt="GitHub Language & Analytics Breakdown" src="./assets/langs-light.svg?v=16" width="100%">
   </picture>
 </div>
 
@@ -77,8 +77,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/trophies-dark.svg?v=14">
-    <img alt="Achievement Trophies" src="./assets/trophies-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/trophies-dark.svg?v=16">
+    <img alt="Achievement Trophies" src="./assets/trophies-light.svg?v=16" width="100%">
   </picture>
 </div>
 
@@ -88,8 +88,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg?v=14">
-    <img alt="Contribution Graph" src="./assets/snake-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg?v=16">
+    <img alt="Contribution Graph" src="./assets/snake-light.svg?v=16" width="100%">
   </picture>
 </div>
 
@@ -99,21 +99,15 @@
 
 <div align="center">
 
-<a href="https://svsdineshportfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-Live_Site-ff003c?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
-</a>
-<a href="https://github.com/Danny2389">
-  <img src="https://img.shields.io/badge/GitHub-Danny2389-ff1e4d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-<a href="https://www.linkedin.com/in/dineshsiramasetty-0a3829302/">
-  <img src="https://img.shields.io/badge/LinkedIn-Siramasetty_Dinesh-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://tryhackme.com/p/siramasettydinesh">
-  <img src="https://img.shields.io/badge/TryHackMe-siramasettydinesh-212c42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe">
-</a>
-<a href="mailto:siramasettydinesh@gmail.com">
-  <img src="https://img.shields.io/badge/Email-siramasettydinesh@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
+<a href="https://svsdineshportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Live_Site-ff003c?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+&nbsp;&nbsp;
+<a href="https://github.com/Danny2389"><img src="https://img.shields.io/badge/GitHub-Danny2389-ff1e4d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<br><br>
+<a href="https://www.linkedin.com/in/dineshsiramasetty-0a3829302/"><img src="https://img.shields.io/badge/LinkedIn-Siramasetty_Dinesh-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+&nbsp;&nbsp;
+<a href="https://tryhackme.com/p/siramasettydinesh"><img src="https://img.shields.io/badge/TryHackMe-siramasettydinesh-212c42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"></a>
+<br><br>
+<a href="mailto:siramasettydinesh@gmail.com"><img src="https://img.shields.io/badge/Email-siramasettydinesh@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 <br><br>
 

@@ -2,6 +2,7 @@ import base64
 import os
 import io
 import json
+import re
 import urllib.request
 from PIL import Image
 
@@ -1165,8 +1166,24 @@ def generate_snake(is_light=False):
 # ==========================================
 # 9. PROFILE VIEWS GENERATOR
 # ==========================================
+def fetch_live_views():
+    try:
+        url = "https://komarev.com/ghpvc/?username=Danny2389"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=4) as resp:
+            content = resp.read().decode('utf-8')
+            matches = re.findall(r'<text[^>]*>\s*(\d+)\s*</text>', content)
+            if matches:
+                cnt = int(matches[-1])
+                return f"{cnt:,} Profile Views"
+    except Exception as e:
+        print("Error fetching view counter:", e)
+    return "Visitor Tracking Active"
+
 def generate_profile_views(is_light=False):
     c = LIGHT_THEME if is_light else DARK_THEME
+    views_val = fetch_live_views()
+
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="310" height="58" viewBox="0 0 310 58" fill="none" role="img" aria-label="GitHub profile views">
   <defs>
     <linearGradient id="pv-bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -1235,7 +1252,7 @@ def generate_profile_views(is_light=False):
 
   <!-- Text Info -->
   <text x="64" y="24" class="pv-label">PROFILE VIEWS</text>
-  <text x="64" y="41" class="pv-val">Visitors welcome</text>
+  <text x="64" y="41" class="pv-val">{views_val}</text>
 
   <!-- Status Pulse Dot -->
   <g transform="translate(276, 29)">

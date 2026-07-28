@@ -41,35 +41,27 @@
 
   <g transform="translate(30, 75)">
     <g transform="translate(0, 0)">
-      <text class="lang-name">Python / Jupyter</text>
-      <text x="290" class="lang-pct" text-anchor="end">55.0%</text>
+      <text class="lang-name">Python / ML / Security</text>
+      <text x="290" class="lang-pct" text-anchor="end">98.0%</text>
       <rect y="10" width="290" height="8" rx="4" fill="#f3f4f6"/>
       <rect y="10" width="0" height="8" rx="4" fill="url(#line-grad)">
-        <animate attributeName="width" values="0;159.5" dur="1.5s" begin="0.0s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+        <animate attributeName="width" values="0;284.2" dur="1.5s" begin="0.0s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
       </rect>
     </g>
     <g transform="translate(0, 38)">
-      <text class="lang-name">JavaScript</text>
-      <text x="290" class="lang-pct" text-anchor="end">25.0%</text>
+      <text class="lang-name">HTML & CSS Design</text>
+      <text x="290" class="lang-pct" text-anchor="end">1.3%</text>
       <rect y="10" width="290" height="8" rx="4" fill="#f3f4f6"/>
       <rect y="10" width="0" height="8" rx="4" fill="url(#line-grad)">
-        <animate attributeName="width" values="0;72.5" dur="1.5s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+        <animate attributeName="width" values="0;3.8" dur="1.5s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
       </rect>
     </g>
     <g transform="translate(0, 76)">
-      <text class="lang-name">Linux / Shell</text>
-      <text x="290" class="lang-pct" text-anchor="end">12.0%</text>
+      <text class="lang-name">JavaScript & Web</text>
+      <text x="290" class="lang-pct" text-anchor="end">0.6%</text>
       <rect y="10" width="290" height="8" rx="4" fill="#f3f4f6"/>
       <rect y="10" width="0" height="8" rx="4" fill="url(#line-grad)">
-        <animate attributeName="width" values="0;34.8" dur="1.5s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
-      </rect>
-    </g>
-    <g transform="translate(0, 114)">
-      <text class="lang-name">HTML / CSS</text>
-      <text x="290" class="lang-pct" text-anchor="end">8.0%</text>
-      <rect y="10" width="290" height="8" rx="4" fill="#f3f4f6"/>
-      <rect y="10" width="0" height="8" rx="4" fill="url(#line-grad)">
-        <animate attributeName="width" values="0;23.2" dur="1.5s" begin="0.6000000000000001s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+        <animate attributeName="width" values="0;1.7" dur="1.5s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
       </rect>
     </g>
   </g>
