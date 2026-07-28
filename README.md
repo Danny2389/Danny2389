@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=14">
-  <img alt="Siramasetty Vijaya Sai Dinesh - Cyber Security Analyst Profile Banner" src="./assets/banner-light.svg?v=14" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/banner-dark.svg?v=14">
+  <img alt="Siramasetty Vijaya Sai Dinesh - Cyber Security Analyst Profile Banner" src="./svgs/svgs/assets/banner-light.svg?v=14" width="100%">
 </picture>
 
 <br><br>
@@ -17,27 +17,25 @@
 
 <br>
 
-<!-- <div align="center"> -->
-  <p align="center">
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="./assets/profile-views-dark.svg?v=19">
-    <img src="./assets/profile-views-light.svg?v=19"
-         height="58"
-         alt="">
+            srcset="./svgs/assets/profile-views-dark.svg?v=19">
+    <img
+        src="./svgs/assets/profile-views-light.svg?v=19"
+        height="58"
+        alt="Profile Views">
   </picture>
-  <img src="https://api.visitorbadge.io/api/visitors?path=Danny2389&label=&countColor=%230d0507d0&style=for-the-badge"
-       height="57"
-       alt="">
-</p>
+</div>
+
 
 
 <h2 align="center"><font color="#ff003c">🛡️ Core Security Toolkit & Skills</font></h2>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg?v=14">
-    <img alt="Cyber Security Skills and Toolkit" src="./assets/skills-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/skills-dark.svg?v=14">
+    <img alt="Cyber Security Skills and Toolkit" src="./svgs/assets/skills-light.svg?v=14" width="100%">
   </picture>
 </div>
 
@@ -66,13 +64,13 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=14">
-    <img alt="Security Profile Statistics" src="./assets/stats-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/stats-dark.svg?v=14">
+    <img alt="Security Profile Statistics" src="./svgs/assets/stats-light.svg?v=14" width="100%">
   </picture>
   <br><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/langs-dark.svg?v=14">
-    <img alt="GitHub Language & Analytics Breakdown" src="./assets/langs-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/langs-dark.svg?v=14">
+    <img alt="GitHub Language & Analytics Breakdown" src="./svgs/assets/langs-light.svg?v=14" width="100%">
   </picture>
 </div>
 
@@ -82,8 +80,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/trophies-dark.svg?v=14">
-    <img alt="Achievement Trophies" src="./assets/trophies-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/trophies-dark.svg?v=14">
+    <img alt="Achievement Trophies" src="./svgs/assets/trophies-light.svg?v=14" width="100%">
   </picture>
 </div>
 
@@ -93,8 +91,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg?v=14">
-    <img alt="Contribution Graph" src="./assets/snake-light.svg?v=14" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/snake-dark.svg?v=14">
+    <img alt="Contribution Graph" src="./svgs/assets/snake-light.svg?v=14" width="100%">
   </picture>
 </div>
 

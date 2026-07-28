@@ -29,4 +29,5 @@ ehthumbs.db
 .env.local
 
 # Build scripts / Local scripts
-build_all_svgs.py
+# build_all_svgs.py
+
