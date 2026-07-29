@@ -55,13 +55,13 @@
   </g>
   <g transform="translate(195, 175)">
     <text class="stat-label">PRIVATE REPOSITORIES</text>
-    <text y="30" class="stat-val">42</text>
+    <text y="30" class="stat-val">43</text>
     <text y="48" class="stat-sub">private &amp; enterprise builds</text>
   </g>
 
   <g transform="translate(410, 90)">
     <text class="stat-label">TOTAL REPOSITORIES</text>
-    <text y="30" class="stat-val">51</text>
+    <text y="30" class="stat-val">52</text>
     <text y="48" class="stat-sub">public + private repos</text>
   </g>
   <g transform="translate(410, 175)">

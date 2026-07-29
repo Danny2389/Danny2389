@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="470" viewBox="0 0 850 470" fill="none">
+  <defs>
+    <linearGradient id="repos-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#140609"/>
+    </linearGradient>
+
+    <filter id="repos-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;family=Inter:wght@600;700;800;900&amp;display=swap');
+    
+    .th-col { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 800; fill: #ff003c; letter-spacing: 1px; }
+    .r-title { font-family: 'Inter', sans-serif; font-size: 12.5px; font-weight: 800; fill: #F7F7F7; }
+    .r-chip { font-family: 'Fira Code', monospace; font-size: 9px; font-weight: 600; fill: #F7F7F7; }
+    .r-domain { font-family: 'Fira Code', monospace; font-size: 9px; font-weight: 700; }
+    .r-desc { font-family: 'Inter', sans-serif; font-size: 11px; fill: #9f9f9f; opacity: 0.95; }
+  </style>
+
+  <rect width="850" height="470" rx="16" fill="url(#repos-bg)" stroke="#262626" stroke-width="1.5"/>
+
+  <!-- Table Header Bar -->
+  <g transform="translate(0, 0)">
+    <text x="35" y="34" class="th-col">REPOSITORY</text>
+    <text x="235" y="34" class="th-col">STACK</text>
+    <text x="375" y="34" class="th-col">DOMAIN &amp; FOCUS</text>
+    <text x="525" y="34" class="th-col">DESCRIPTION</text>
+    <line x1="20" y1="48" x2="830" y2="48" stroke="#262626" stroke-width="1.2"/>
+  </g>
+  <g transform="translate(15, 66)">
+    <rect width="820" height="42" rx="8" fill="#111111" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 APEX_AI</text>
+    <rect x="220" y="10" width="59" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="249" y="23" text-anchor="middle" class="r-chip">Python</text>
+    <rect x="285" y="10" width="30" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="300" y="23" text-anchor="middle" class="r-chip">AI</text>
+    <rect x="360" y="9" width="125" height="22" rx="11" fill="none" stroke="#ff003c" stroke-width="1.2"/>
+    <text x="422" y="23" text-anchor="middle" class="r-domain" fill="#ff003c">Cyber Security</text>
+    <text x="510" y="25" class="r-desc">Apex AI Security &amp; Live Metric Engine</text>
+  </g>
+  <g transform="translate(15, 116)">
+    <rect width="820" height="42" rx="8" fill="#161616" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 Sales-Effectiveness</text>
+    <rect x="220" y="10" width="66" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="253" y="23" text-anchor="middle" class="r-chip">Jupyter</text>
+    <rect x="292" y="10" width="59" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="321" y="23" text-anchor="middle" class="r-chip">Python</text>
+    <rect x="360" y="9" width="110" height="22" rx="11" fill="none" stroke="#ff5b7d" stroke-width="1.2"/>
+    <text x="415" y="23" text-anchor="middle" class="r-domain" fill="#ff5b7d">Data Science</text>
+    <text x="510" y="25" class="r-desc">Sales Analytics &amp; Predictive Suite</text>
+  </g>
+  <g transform="translate(15, 166)">
+    <rect width="820" height="42" rx="8" fill="#111111" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 Employee_Performance</text>
+    <rect x="220" y="10" width="66" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="253" y="23" text-anchor="middle" class="r-chip">Jupyter</text>
+    <rect x="292" y="10" width="59" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="321" y="23" text-anchor="middle" class="r-chip">Python</text>
+    <rect x="360" y="9" width="87" height="22" rx="11" fill="none" stroke="#ff003c" stroke-width="1.2"/>
+    <text x="403" y="23" text-anchor="middle" class="r-domain" fill="#ff003c">ML Engine</text>
+    <text x="510" y="25" class="r-desc">Enterprise Employee Analytics</text>
+  </g>
+  <g transform="translate(15, 216)">
+    <rect width="820" height="42" rx="8" fill="#161616" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 Health_Care_App</text>
+    <rect x="220" y="10" width="88" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="264" y="23" text-anchor="middle" class="r-chip">JavaScript</text>
+    <rect x="314" y="10" width="37" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="332" y="23" text-anchor="middle" class="r-chip">Web</text>
+    <rect x="360" y="9" width="110" height="22" rx="11" fill="none" stroke="#ff5b7d" stroke-width="1.2"/>
+    <text x="415" y="23" text-anchor="middle" class="r-domain" fill="#ff5b7d">App Security</text>
+    <text x="510" y="25" class="r-desc">Secure Web Healthcare App</text>
+  </g>
+  <g transform="translate(15, 266)">
+    <rect width="820" height="42" rx="8" fill="#111111" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 Insurance_Cost_Prediction</text>
+    <rect x="220" y="10" width="66" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="253" y="23" text-anchor="middle" class="r-chip">Jupyter</text>
+    <rect x="292" y="10" width="59" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="321" y="23" text-anchor="middle" class="r-chip">Python</text>
+    <rect x="360" y="9" width="125" height="22" rx="11" fill="none" stroke="#ff003c" stroke-width="1.2"/>
+    <text x="422" y="23" text-anchor="middle" class="r-domain" fill="#ff003c">Risk Analytics</text>
+    <text x="510" y="25" class="r-desc">Predictive Risk Costing Engine</text>
+  </g>
+  <g transform="translate(15, 316)">
+    <rect width="820" height="42" rx="8" fill="#161616" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 Flight_Fare_Prediction</text>
+    <rect x="220" y="10" width="66" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="253" y="23" text-anchor="middle" class="r-chip">Jupyter</text>
+    <rect x="292" y="10" width="59" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="321" y="23" text-anchor="middle" class="r-chip">Python</text>
+    <rect x="360" y="9" width="117" height="22" rx="11" fill="none" stroke="#ff5b7d" stroke-width="1.2"/>
+    <text x="418" y="23" text-anchor="middle" class="r-domain" fill="#ff5b7d">Data Pipeline</text>
+    <text x="510" y="25" class="r-desc">Airfare Price Forecasting Model</text>
+  </g>
+  <g transform="translate(15, 366)">
+    <rect width="820" height="42" rx="8" fill="#111111" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 BikeRentalPrediction</text>
+    <rect x="220" y="10" width="66" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="253" y="23" text-anchor="middle" class="r-chip">Jupyter</text>
+    <rect x="292" y="10" width="59" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="321" y="23" text-anchor="middle" class="r-chip">Python</text>
+    <rect x="360" y="9" width="132" height="22" rx="11" fill="none" stroke="#ff003c" stroke-width="1.2"/>
+    <text x="426" y="23" text-anchor="middle" class="r-domain" fill="#ff003c">Demand Forecast</text>
+    <text x="510" y="25" class="r-desc">Urban Rental Demand Model</text>
+  </g>
+  <g transform="translate(15, 416)">
+    <rect width="820" height="42" rx="8" fill="#161616" stroke="#262626" stroke-width="0.8"/>
+    <text x="18" y="26" class="r-title">📦 Heart_Prediction</text>
+    <rect x="220" y="10" width="66" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="253" y="23" text-anchor="middle" class="r-chip">Jupyter</text>
+    <rect x="292" y="10" width="59" height="20" rx="6" fill="#090909" stroke="#262626" stroke-width="1"/>
+    <text x="321" y="23" text-anchor="middle" class="r-chip">Python</text>
+    <rect x="360" y="9" width="117" height="22" rx="11" fill="none" stroke="#ff5b7d" stroke-width="1.2"/>
+    <text x="418" y="23" text-anchor="middle" class="r-domain" fill="#ff5b7d">Healthcare ML</text>
+    <text x="510" y="25" class="r-desc">Cardiovascular Risk Analytics</text>
+  </g>
+</svg>

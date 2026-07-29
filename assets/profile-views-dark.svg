@@ -8,21 +8,21 @@ role="img"
 aria-label="GitHub profile views">
   <defs>
     <linearGradient id="pv-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fcfcfd" />
-      <stop offset="50%" stop-color="#f3f4f6" />
-      <stop offset="100%" stop-color="#e5e7eb" />
+      <stop offset="0%" stop-color="#0d0507" />
+      <stop offset="50%" stop-color="#090909" />
+      <stop offset="100%" stop-color="#140609" />
     </linearGradient>
 
     <linearGradient id="pv-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#d90429" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#d1d5db" />
-      <stop offset="100%" stop-color="#ff003c" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#262626" />
+      <stop offset="100%" stop-color="#ff5b7d" stop-opacity="0.6"/>
     </linearGradient>
 
     <linearGradient id="pv-eye-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d90429"/>
-      <stop offset="50%" stop-color="#ef233c"/>
-      <stop offset="100%" stop-color="#ff003c"/>
+      <stop offset="0%" stop-color="#ff003c"/>
+      <stop offset="50%" stop-color="#ff335f"/>
+      <stop offset="100%" stop-color="#ff5b7d"/>
     </linearGradient>
 
     <filter id="pv-glow" x="-30%" y="-30%" width="160%" height="160%">
@@ -46,7 +46,7 @@ aria-label="GitHub profile views">
       font-family: 'Fira Code', monospace;
       font-size: 10px;
       font-weight: 700;
-      fill: #ff003c;
+      fill: #ff5b7d;
       letter-spacing: 1.5px;
     }
 
@@ -54,14 +54,14 @@ aria-label="GitHub profile views">
       font-family: 'Inter', sans-serif;
       font-size: 13px;
       font-weight: 800;
-      fill: #111827;
+      fill: #F7F7F7;
     }
 
     .pv-num {
       font-family: 'Fira Code', monospace;
       font-size: 13.5px;
       font-weight: 800;
-      fill: #d90429;
+      fill: #ff003c;
     }
   </style>
 
@@ -107,8 +107,8 @@ aria-label="GitHub profile views">
   <!-- Cyber Eye Icon -->
   <g transform="translate(16, 15)">
     <path d="M 4 14 Q 18 2 32 14 Q 18 26 4 14 Z" fill="none" stroke="url(#pv-eye-grad)" stroke-width="2" filter="url(#pv-glow)"/>
-    <circle cx="18" cy="14" r="5" fill="none" stroke="#ff003c" stroke-width="1.5"/>
-    <circle cx="18" cy="14" r="2.5" fill="#d90429" filter="url(#pv-glow)">
+    <circle cx="18" cy="14" r="5" fill="none" stroke="#ff5b7d" stroke-width="1.5"/>
+    <circle cx="18" cy="14" r="2.5" fill="#ff003c" filter="url(#pv-glow)">
       <animate attributeName="r" values="2;3.2;2" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
   </g>
@@ -119,10 +119,10 @@ aria-label="GitHub profile views">
 
   <!-- Status Pulse Dot -->
   <g transform="translate(282,29)">
-    <circle cx="0" cy="0" r="4" fill="#d90429" filter="url(#pv-glow)">
+    <circle cx="0" cy="0" r="4" fill="#ff003c" filter="url(#pv-glow)">
       <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="0" cy="0" r="7" fill="none" stroke="#ff003c" stroke-width="1" opacity="0.6">
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#ff5b7d" stroke-width="1" opacity="0.6">
       <animate attributeName="r" values="4;10;4" dur="1.8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.8;0;0.8" dur="1.8s" repeatCount="indefinite"/>
     </circle>
@@ -135,8 +135,8 @@ aria-label="GitHub profile views">
     font-family="'Fira Code', monospace"
     font-size="21"
     font-weight="800"
-    fill="#111827"
+    fill="#F7F7F7"
     letter-spacing="2">
-    367
+    463
 </text>
 </svg>

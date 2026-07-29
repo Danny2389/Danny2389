@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="52" viewBox="0 0 850 52" fill="none">
+  <defs>
+    <linearGradient id="hdr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+    <linearGradient id="hdr-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d90429" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#d1d5db"/>
+      <stop offset="100%" stop-color="#ff003c" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="hdr-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&amp;display=swap');
+    .hdr-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 900;
+      fill: #d90429;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <rect width="850" height="52" rx="12" fill="url(#hdr-bg)" stroke="url(#hdr-border)" stroke-width="1.5"/>
+
+  <g transform="translate(425, 32)">
+    <text text-anchor="middle" class="hdr-title" filter="url(#hdr-glow)">📈  Contribution Rhythm</text>
+  </g>
+</svg>

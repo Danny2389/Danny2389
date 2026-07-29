@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="42" viewBox="0 0 850 42" fill="none">
+  <defs>
+    <linearGradient id="ftr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#140609"/>
+    </linearGradient>
+    <filter id="ftr-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;family=Inter:wght@600;700;800&amp;display=swap');
+    .ftr-muted { font-family: 'Inter', sans-serif; font-size: 11px; fill: #9f9f9f; font-weight: 600; }
+    .ftr-slogan { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 800; fill: #ff003c; letter-spacing: 1px; }
+  </style>
+
+  <rect width="850" height="42" rx="10" fill="url(#ftr-bg)" stroke="#262626" stroke-width="1"/>
+
+  <text x="425" y="26" text-anchor="middle">
+    <tspan class="ftr-muted">Made with a security-first mindset  •  </tspan>
+    <tspan class="ftr-slogan" filter="url(#ftr-glow)">ALWAYS LEARNING • ALWAYS SECURING • ALWAYS BUILDING</tspan>
+  </text>
+</svg>

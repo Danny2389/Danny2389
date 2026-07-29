@@ -1,125 +1,152 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/banner-dark.svg?v=14">
-  <img alt="Siramasetty Vijaya Sai Dinesh - Cyber Security Analyst Profile Banner" src="./svgs/svgs/assets/banner-light.svg?v=14" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Siramasetty Vijaya Sai Dinesh - Cyber Security Analyst Profile Banner" src="assets/banner-light.svg" width="100%">
 </picture>
 
 <br><br>
 
-### <font color="#ff003c">Cyber Security Analyst</font> &nbsp;•&nbsp; <font color="#ff5b7d">VAPT Specialist</font> &nbsp;•&nbsp; <font color="#ff003c">Python Automation Developer</font>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-dark.svg">
+  <img alt="Cyber Security Profile Tagline" src="assets/tagline-light.svg" width="100%">
+</picture>
 
-<p align="center">
-  <em><font color="#9f9f9f" size="4">Passionate about discovering vulnerabilities, securing digital infrastructure, and engineering automated Python security tools.<br>Experienced in web application penetration testing, network security hardening and REST API auditing.</font></em>
-  <br><br>
-  <strong><font color="#ff003c">ALWAYS LEARNING</font> &nbsp;•&nbsp; <font color="#ff5b7d">ALWAYS SECURING</font> &nbsp;•&nbsp; <font color="#ff003c">ALWAYS BUILDING</font></strong>
-</p>
+<br><br>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-views-dark.svg">
+  <img src="assets/profile-views-light.svg" height="58" alt="Profile Views">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-skills-dark.svg">
+  <img alt="Core Security Toolkit & Skills" src="assets/hdr-skills-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
+  <img alt="Cyber Security Skills and Toolkit" src="assets/skills-light.svg" width="100%">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-repos-dark.svg">
+  <img alt="Public Repositories & Open Source Projects" src="assets/hdr-repos-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repos-dark.svg">
+  <img alt="Public Repositories Table" src="assets/repos-light.svg" width="100%">
+</picture>
+
+<br><br>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-            srcset="./svgs/assets/profile-views-dark.svg?v=19">
-    <img
-        src="./svgs/assets/profile-views-light.svg?v=19"
-        height="58"
-        alt="Profile Views">
-  </picture>
+  <a href="https://github.com/Danny2389/APEX_AI">
+    <img src="https://img.shields.io/badge/APEX__AI-Cyber_Security-ff003c?style=for-the-badge&logo=github&logoColor=white" alt="APEX_AI">
+  </a>
+  <a href="https://github.com/Danny2389/Sales-Effectiveness">
+    <img src="https://img.shields.io/badge/Sales--Effectiveness-Data_Science-ff5b7d?style=for-the-badge&logo=github&logoColor=white" alt="Sales-Effectiveness">
+  </a>
+  <a href="https://github.com/Danny2389/Employee_Performance_Analysis__INX_Future_Inc">
+    <img src="https://img.shields.io/badge/Employee__Performance-ML_Engine-ff003c?style=for-the-badge&logo=github&logoColor=white" alt="Employee Performance">
+  </a>
+  <a href="https://github.com/Danny2389/Health_Care_App">
+    <img src="https://img.shields.io/badge/Health__Care__App-App_Security-ff5b7d?style=for-the-badge&logo=github&logoColor=white" alt="Health_Care_App">
+  </a>
+  <a href="https://github.com/Danny2389/Insurance_Cost_Prediction">
+    <img src="https://img.shields.io/badge/Insurance__Cost-Risk_Analytics-ff003c?style=for-the-badge&logo=github&logoColor=white" alt="Insurance Cost">
+  </a>
+  <a href="https://github.com/Danny2389/Flight_Fare_Prediction">
+    <img src="https://img.shields.io/badge/Flight__Fare-Data_Pipeline-ff5b7d?style=for-the-badge&logo=github&logoColor=white" alt="Flight Fare">
+  </a>
+  <a href="https://github.com/Danny2389/BikeRentalPrediction">
+    <img src="https://img.shields.io/badge/BikeRental-Demand_Forecast-ff003c?style=for-the-badge&logo=github&logoColor=white" alt="BikeRental">
+  </a>
+  <a href="https://github.com/Danny2389/Heart_Prediction">
+    <img src="https://img.shields.io/badge/Heart__Prediction-Healthcare_ML-ff5b7d?style=for-the-badge&logo=github&logoColor=white" alt="Heart Prediction">
+  </a>
 </div>
 
+<br><br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-stats-dark.svg">
+  <img alt="Security Profile & GitHub Analytics" src="assets/hdr-stats-light.svg" width="100%">
+</picture>
 
-<h2 align="center"><font color="#ff003c">🛡️ Core Security Toolkit & Skills</font></h2>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="Security Profile Statistics" src="assets/stats-light.svg" width="100%">
+</picture>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/skills-dark.svg?v=14">
-    <img alt="Cyber Security Skills and Toolkit" src="./svgs/assets/skills-light.svg?v=14" width="100%">
-  </picture>
-</div>
+<br><br>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
+  <img alt="GitHub Language & Analytics Breakdown" src="assets/langs-light.svg" width="100%">
+</picture>
 
-<h2 align="center"><font color="#ff003c">🚀 Public Repositories & Open Source Projects</font></h2>
+<br><br>
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-trophies-dark.svg">
+  <img alt="Trophy Room & Achievements" src="assets/hdr-trophies-light.svg" width="100%">
+</picture>
 
-| <font color="#ff003c">Repository</font> | <font color="#ff5b7d">Language / Stack</font> | <font color="#ff003c">Domain & Focus</font> | <font color="#ff5b7d">Description</font> |
-| :---: | :---: | :---: | :---: |
-| [**<font color="#ff5b7d">APEX_AI</font>**](https://github.com/Danny2389/APEX_AI) | `Python` `AI` | <font color="#ff003c"><strong>Cyber Security</strong></font> | Apex AI Cyber Security & Live Metric Pipeline & Report Generation Engine. |
-| [**<font color="#ff5b7d">Sales-Effectiveness</font>**](https://github.com/Danny2389/Sales-Effectiveness) | `Jupyter` `Python` | <font color="#ff5b7d"><strong>Data Science</strong></font> | Sales Performance Analytics & Predictive Modeling Suite. |
-| [**<font color="#ff5b7d">Employee_Performance_Analysis</font>**](https://github.com/Danny2389/Employee_Performance_Analysis__INX_Future_Inc) | `Jupyter` `Python` | <font color="#ff003c"><strong>ML Engine</strong></font> | INX Future Inc Enterprise Employee Performance Analytics. |
-| [**<font color="#ff5b7d">Health_Care_App</font>**](https://github.com/Danny2389/Health_Care_App) | `JavaScript` `Web` | <font color="#ff5b7d"><strong>App Security</strong></font> | Secure Web Healthcare & Patient Management Application. |
-| [**<font color="#ff5b7d">Insurance_Cost_Prediction</font>**](https://github.com/Danny2389/Insurance_Cost_Prediction) | `Jupyter` `Python` | <font color="#ff003c"><strong>Risk Analytics</strong></font> | Predictive Machine Learning Engine for Insurance Costing. |
-| [**<font color="#ff5b7d">Flight_Fare_Prediction</font>**](https://github.com/Danny2389/Flight_Fare_Prediction) | `Jupyter` `Python` | <font color="#ff5b7d"><strong>Data Pipeline</strong></font> | Airfare Price Trend Forecasting & Machine Learning Model. |
-| [**<font color="#ff5b7d">BikeRentalPrediction</font>**](https://github.com/Danny2389/BikeRentalPrediction) | `Jupyter` `Python` | <font color="#ff003c"><strong>Demand Forecasting</strong></font> | Machine Learning Model for Bike Rental Urban Demand. |
-| [**<font color="#ff5b7d">Heart_Prediction</font>**](https://github.com/Danny2389/Heart_Prediction) | `Jupyter` `Python` | <font color="#ff5b7d"><strong>Healthcare ML</strong></font> | Cardiovascular Disease Risk Assessment Analytics. |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/trophies-dark.svg">
+  <img alt="Achievement Trophies" src="assets/trophies-light.svg" width="100%">
+</picture>
 
-</div>
+<br><br>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-snake-dark.svg">
+  <img alt="Contribution Rhythm" src="assets/hdr-snake-light.svg" width="100%">
+</picture>
 
-<h2 align="center"><font color="#ff003c">📊 Security Profile & GitHub Analytics</font></h2>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <img alt="Contribution Graph" src="assets/snake-light.svg" width="100%">
+</picture>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/stats-dark.svg?v=14">
-    <img alt="Security Profile Statistics" src="./svgs/assets/stats-light.svg?v=14" width="100%">
-  </picture>
-  <br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/langs-dark.svg?v=14">
-    <img alt="GitHub Language & Analytics Breakdown" src="./svgs/assets/langs-light.svg?v=14" width="100%">
-  </picture>
-</div>
+<br><br>
 
-<br>
-
-<h2 align="center"><font color="#ff003c">🏆 Trophy Room & Achievements</font></h2>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/trophies-dark.svg?v=14">
-    <img alt="Achievement Trophies" src="./svgs/assets/trophies-light.svg?v=14" width="100%">
-  </picture>
-</div>
-
-<br>
-
-<h2 align="center"><font color="#ff003c">📈 Contribution Rhythm</font></h2>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svgs/assets/snake-dark.svg?v=14">
-    <img alt="Contribution Graph" src="./svgs/assets/snake-light.svg?v=14" width="100%">
-  </picture>
-</div>
-
-<br>
-
-<h2 align="center"><font color="#ff003c">🤝 Let's Connect</font></h2>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-connect-dark.svg">
+  <img alt="Let's Connect" src="assets/hdr-connect-light.svg" width="100%">
+</picture>
 
 <div align="center">
 
-<a href="https://svsdineshportfolio.vercel.app/">
+<a href="https://svsdineshportfolio.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-Live_Site-ff003c?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
 </a>
-<a href="https://github.com/Danny2389">
-  <img src="https://img.shields.io/badge/GitHub-Danny2389-ff1e4d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+<a href="https://github.com/Danny2389" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Danny2389-181717?style=for-the-badge&logo=github&logoColor=ff003c" alt="GitHub">
 </a>
-<a href="https://www.linkedin.com/in/dineshsiramasetty-0a3829302/">
-  <img src="https://img.shields.io/badge/LinkedIn-Siramasetty_Dinesh-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+<a href="https://www.linkedin.com/in/dineshsiramasetty-0a3829302/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Siramasetty_Dinesh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-<a href="https://tryhackme.com/p/siramasettydinesh">
-  <img src="https://img.shields.io/badge/TryHackMe-siramasettydinesh-212c42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe">
+<a href="https://tryhackme.com/p/siramasettydinesh" target="_blank">
+  <img src="https://img.shields.io/badge/TryHackMe-siramasettydinesh-212C42?style=for-the-badge&logo=tryhackme&logoColor=ff003c" alt="TryHackMe">
 </a>
 <a href="mailto:siramasettydinesh@gmail.com">
-  <img src="https://img.shields.io/badge/Email-siramasettydinesh@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <img src="https://img.shields.io/badge/Email-siramasettydinesh@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
 <br><br>
 
-<sub><font color="#9f9f9f">Made with a security-first mindset • </font><strong style="color:#ff003c">ALWAYS LEARNING • ALWAYS SECURING • ALWAYS BUILDING</strong></sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img alt="Footer Tagline" src="assets/footer-light.svg" width="100%">
+</picture>
+
+</div>
 
 </div>
