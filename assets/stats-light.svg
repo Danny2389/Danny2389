@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260" fill="none">
+  <defs>
+    <linearGradient id="stats-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+
+    <linearGradient id="stat-accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d90429"/>
+      <stop offset="100%" stop-color="#ff003c"/>
+    </linearGradient>
+
+    <filter id="stat-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;family=Inter:wght@700;800;900&amp;display=swap');
+
+    .stat-header { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 800; fill: #4b5563; letter-spacing: 1.5px; }
+    .stat-val { font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 900; fill: #111827; }
+    .stat-label { font-family: 'Fira Code', monospace; font-size: 11px; fill: #d90429; font-weight: 700; letter-spacing: 1px; }
+    .stat-sub { font-family: 'Inter', sans-serif; font-size: 11px; fill: #4b5563; }
+    .rank-val { font-family: 'Inter', sans-serif; font-size: 26px; font-weight: 900; fill: #ff003c; }
+  </style>
+
+  <rect width="850" height="260" rx="16" fill="url(#stats-bg)" stroke="#d1d5db" stroke-width="1.5"/>
+
+  <g transform="translate(30, 30)">
+    <circle cx="6" cy="-4" r="5" fill="#d90429" filter="url(#stat-glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="22" y="0" class="stat-header">SECURITY PROFILE &amp; METRICS SNAPSHOT</text>
+    <line x1="0" y1="15" x2="790" y2="15" stroke="#d1d5db" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(90, 150)">
+    <circle r="52" fill="none" stroke="#d1d5db" stroke-width="10"/>
+    <circle r="52" fill="none" stroke="url(#stat-accent-grad)" stroke-width="10" stroke-linecap="round" stroke-dasharray="326" stroke-dashoffset="326" transform="rotate(-90)" filter="url(#stat-glow)">
+      <animate attributeName="stroke-dashoffset" values="326;45" dur="2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </circle>
+    <text y="-4" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" fill="#4b5563" font-weight="700">RANK</text>
+    <text y="20" text-anchor="middle" class="rank-val">SSS</text>
+  </g>
+
+  <g transform="translate(195, 90)">
+    <text class="stat-label">PUBLIC REPOSITORIES</text>
+    <text y="30" class="stat-val">09</text>
+    <text y="48" class="stat-sub">open source &amp; tooling repos</text>
+  </g>
+  <g transform="translate(195, 175)">
+    <text class="stat-label">PRIVATE REPOSITORIES</text>
+    <text y="30" class="stat-val">43</text>
+    <text y="48" class="stat-sub">private &amp; enterprise builds</text>
+  </g>
+
+  <g transform="translate(410, 90)">
+    <text class="stat-label">TOTAL REPOSITORIES</text>
+    <text y="30" class="stat-val">52</text>
+    <text y="48" class="stat-sub">public + private repos</text>
+  </g>
+  <g transform="translate(410, 175)">
+    <text class="stat-label">SECURITY TOOLS</text>
+    <text y="30" class="stat-val">10+</text>
+    <text y="48" class="stat-sub">VAPT &amp; research suite</text>
+  </g>
+
+  <g transform="translate(625, 90)">
+    <text class="stat-label">FOLLOWERS</text>
+    <text y="30" class="stat-val">01</text>
+    <text y="48" class="stat-sub">community connections</text>
+  </g>
+  <g transform="translate(625, 175)">
+    <text class="stat-label">GITHUB SINCE</text>
+    <text y="30" class="stat-val">2019</text>
+    <text y="48" class="stat-sub">active security dev</text>
+  </g>
+</svg>
