@@ -22,7 +22,7 @@
   <rect width="850" height="210" rx="16" fill="url(#snake-bg)" stroke="#262626" stroke-width="1.5"/>
 
   <g transform="translate(30, 30)">
-    <text x="0" y="0" class="snake-header">🐍 CONTRIBUTIONS EATER SNAKE</text>
+    <text x="0" y="0" class="snake-header">🐍 CONTRIBUTIONS</text>
     <line x1="0" y1="15" x2="790" y2="15" stroke="#262626" stroke-width="1"/>
   </g>
 
